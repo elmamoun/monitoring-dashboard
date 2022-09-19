@@ -43,13 +43,6 @@ Cette section fait une brève présentation du contenu de ce dépôt.
 │
 ├── logs/
 │   └── Prev/
-
-├── notebooks/
-│   └── Analysis.ipynb
-│   └── Data_quality.ipynb
-│   └── Standarisation_reporting_multi_sheet.ipynb
-│   └── Standarisation_reporting_single_sheet.ipynb
-│   └── Monitoring automatique.ipynb
 └── README.md
 
 ```
@@ -82,23 +75,6 @@ Le dossier `code` contient l'ensemble des scripts de chargement et de création 
 
 * `dev.py` : Fichier contenant toutes les fonctions utiles utilisées dans la création du dashboard.
 
-
-
-
-
-> **Les notebooks**
-
-Le dossier `notebooks` contient les notebooks suivants :
-
-
-* `Analysis.ipynb` : ce notebook est un notebook brouillon duquel je me sers pour développer les fonctions et débugger les bouts de code.
-* `Data_quality.ipynb` : ce notebook a servi pour développer un script de Data quality qui jugera la qualité du Dataframe produit par les deux fonctions: prevision_data_ingestion_multiple_sheet et prevision_data_ingestion_single_sheet.
-* `Dataviz.ipynb` : ce notebook a servi pour tracer les toutes premières courbes et graphes d'exploration de données d'équilibre technique. 
-* `Standarisation_reporting_multi_sheet.ipynb` : ce notebook a servi pour développer la fonction prevision_data_ingestion_multiple_sheet. Cette fonction permet de créer un dataframe pandas et depuis un fichier excel à feuilles multiples, puis enregistrer le dataframe sous une table Hive. 
-* `Standarisation_reporting_single_sheet.ipynb` : ce notebook a servi pour développer la fonction prevision_data_ingestion_single_sheet. Cette fonction permet de créer un dataframe pandas et depuis un fichier excel à feuille unique, puis enregistrer le dataframe sous une table Hive. 
-* `Monitoring automatique.ipynb` : ce notebook contient le travail sur la proposition d'automatisation des contôles de cohérence réalisés par la sDFT.
-* `PREV_VIZ.ipynb` : ce notebook contient les premiers élèments qui ont servi pour tracer les graphes du dashboard.
-* `ingestion_code_flux_code_budget.ipynb` : ce notebook a permis l'ingestion de la table de regroupement des codes budgétaires. 
 
 
 
